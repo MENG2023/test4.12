@@ -1,0 +1,58 @@
+8.继承和多态
+继承是对共性进行抽取,从而实现代码的复用
+is _a 的关系
+Java中使用类对现实世界中的实体进行描述,类经过实例化之后的产物对象,则可以用来表示现实中的实体
+但是现实世界错综复杂,事物之间可能会存在一些关联,那在设计程序时就要考虑,比如:猫和狗,它们都是动物
+使用Java语言来描述,就会设计出
+//Dog.java
+public class Dog {
+ string name;
+ int age;
+ float weigth;
+
+public void eat() {
+  System.out.println(name+"正在吃饭");
+   }
+ 
+public void sleep() {
+  System.out.println(name+"正在睡觉");
+}
+ void Bark() {
+ System.out.println(name+"汪汪汪~~");
+ } 
+}
+
+//Cat.java
+public class Cat{
+  string name;
+  int age;
+  float weight;
+
+ public void eat() {
+  System.out.println(name+"正在吃饭");
+ }
+
+public void sleep() 
+{
+   System.out.println(name+"正在睡觉");
+ }
+
+ void mew() {
+  System.out.println(name+"喵喵喵~~~");
+ }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
